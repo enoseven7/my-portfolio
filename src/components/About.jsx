@@ -3,20 +3,17 @@ import aboutImg from "../assets/aboutDev.png";
 import cspImg from "../assets/csp.png";
 import flImg from "../assets/flstudio.png";
 import blenderImg from "../assets/blender.webp";
+import aeImg from "../assets/aeImg.jpg";
 
 export default function About() {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
+        
         <h1 className="text-3xl sm:6xl lg:text-7xl text-center tracking-wide">
             <span className='bg-gradient-to-r from-green-300 to-blue-500 text-transparent bg-clip-text'>
                 About Me
             </span>
-        </h1>
-        <p className='mt-10 text-lg text-center text-neutral-500 max-w-4xl'>
-            As you know, I am Ethan Ngwa, a 17 year old from the UK, currently attending Queen Elizabeth's Grammar School in Wakefield.
-            I have a passion for coding and technology, and have been learning and experimenting in the world of programming for around
-            5 years now. 
-        </p>
+        </h1>     
         <h2 className='mt-10 text-2xl text-center text-neutral-300 max-w-4xl'>
             How did it start?
         </h2>
@@ -56,7 +53,7 @@ export default function About() {
             around 2023, when I discovered a few "underground" artists with a unique sound, which truly captivated me 
             and inspired me to start music production, using FL Studio. I started simple, using youtube tutorials to guide me, and when I 
             felt I had a good enough understanding of the software and music theory, I began experimenting on my own to make something unique
-            which I could be proud of.
+            which I could be proud of - using synths and glitchy sounds and eventually finding my own sound.
             </p>
         </div>
         <div className="w-full px-4 md:px-8 py-8">
@@ -65,15 +62,18 @@ export default function About() {
             But wait, it doesn't stop there! Following my love for game development, 
             came a love for 3D modelling, which I started learning using Blender. This advanced from simple game models to instead 
             scene-building, and eventually rendering my scenes out as art pieces, learning about a multitude of techniques, like 
-            perfecting lighting, and i jeet
+            perfecting lighting, texturing and composition to create visually stunning images.
             </p>
         </div>
-        <p className='mt-10 text-lg text-center text-neutral-500 max-w-4xl mb-20px'>
-            And finally, my last hobby (for now at least) is 
+        <div className="w-full px-4 md:px-8 py-8">
+            <img src={aeImg} alt="After Effects" className="w-xl rounded-2xl mt-10 float-left px-3"/>
+            <p className='mt-10 text-lg text-center text-neutral-500 leading-relaxed'>
+           And finally, my last hobby (for now at least) is 
             video editing, which I began learning in 2022, using Adobe After Effects combined with a multitude of plugins to create 
-            mesmerising edits of my favourite media, like animating manga scenes or editing experimental music videos.
-        </p>
-        
+            mesmerising edits of my favourite media, like animating manga scenes or editing experimental music videos. I love the creativity 
+            and freedom that comes with video editing, and I deeply enjoy the process of bringing my ideas to life through this medium.
+            </p>
+        </div>
     </div>
   )
 }
