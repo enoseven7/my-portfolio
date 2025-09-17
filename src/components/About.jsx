@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import aboutImg from "../assets/aboutDev.png";
-import cspImg from "../assets/csp.png";
+import cspImg from "../assets/CSP.png";
 import flImg from "../assets/flstudio.png";
 import blenderImg from "../assets/blender.webp";
 import aeImg from "../assets/aeImg.jpg";
