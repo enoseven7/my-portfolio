@@ -10,7 +10,7 @@ const handleAnimationComplete = () => {
 
 const HeroSection = () => {
   return (
-    <div className="h-screen flex flex-col mt-2 lg:mt-20">
+    <div className="h-screen flex flex-col mt-2 lg:mt-10">
       <SplitText
         text="Hi. I'm,"
         className="text-4xl sm:6xl lg:text-7xl text-left tracking-wide text-semibold"
@@ -25,7 +25,7 @@ const HeroSection = () => {
         textAlign="center"
         onLetterAnimationComplete={handleAnimationComplete}
       />
-      <div className="w-full px-4 md:px-8 py-0">
+      <div className="w-full px-4 md:px-8 py-0 mt-0">
         <div className='float-left animate-background block rounded-full bg-gradient-to-r from-green-300 via-blue-500 to-purple-700 bg-[length:_200%_200%] p-0.5 [animation-duration:_2s] mt-35'>
           <img src={avatar} alt="Ethan Ngwa" className="w-100 h-100 rounded-full" />
         </div>

@@ -9,6 +9,8 @@ import LiquidEther from './components/LiquidAether'
 import GradualBlur from './components/GradualBlur'
 import DotGrid from './components/DotGrid';
 import Projects from './components/Projects'
+import Contact from './components/Contact'
+import Particles from './components/Particles'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +20,7 @@ function App() {
 
       <Navbar />
       <div className="absolute inset-0 -z-10">
-        <div className='relative w-full h-screen'>
+        <div className='relative w-full h-full'>
           <LiquidEther
             colors={['#5024FF', '#3AE1E4', '#44F3BF']}
             mouseForce={20}
@@ -43,7 +45,21 @@ function App() {
         <HeroSection />
         <About />
         <Projects />
-        
+        <Contact />
+        <div className="absolute inset-0 -z-10 top-[100vh] pointer-events-none">
+          <Particles
+            particleColors={['#ffffff', '#ffffff']}
+            particleCount={500}
+            particleSpread={10}
+            speed={0.1}
+            particleBaseSize={100}
+            moveParticlesOnHover={true}
+            alphaParticles={false}
+            disableRotation={false}
+          />
+        </div>
+
+
       </div>
       <GradualBlur
         target="page"
