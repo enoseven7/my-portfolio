@@ -9,7 +9,8 @@ export const projectsList = [
   "FirstPersonSwordfighter",
   "topdownvs",
   "creativity-review-backend",
-  "virtualr"
+  "virtualr",
+  "tinylang"
 ];
 
 export const githubUsername = "enoseven7";
