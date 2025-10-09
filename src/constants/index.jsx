@@ -10,7 +10,8 @@ export const projectsList = [
   "topdownvs",
   "creativity-review-backend",
   "virtualr",
-  "tinylang"
+  "tinylang",
+  "UsageTimer"
 ];
 
 export const githubUsername = "enoseven7";
