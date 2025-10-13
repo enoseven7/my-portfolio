@@ -11,7 +11,8 @@ export const projectsList = [
   "creativity-review-backend",
   "virtualr",
   "tinylang",
-  "UsageTimer"
+  "UsageTimer",
+  "SF6MotionTracking"
 ];
 
 export const githubUsername = "enoseven7";
