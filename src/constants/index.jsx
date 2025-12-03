@@ -12,7 +12,9 @@ export const projectsList = [
   "virtualr",
   "tinylang",
   "UsageTimer",
-  "SF6MotionTracking"
+  "SF6MotionTracking",
+  "UsageTimerWinUI",
+  "deduction"
 ];
 
 export const githubUsername = "enoseven7";

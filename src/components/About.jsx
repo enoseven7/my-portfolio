@@ -34,7 +34,8 @@ export default function About() {
                     creativity that can be expressed with it.
                     This initial experience sparked my interest in programming, leading me to explore other languages and technologies over the years.
                     I found a way to program no matter what resources I had available, such as in Year 7-8, when all I had was a school Chromebook,
-                    I picked up HTML, CSS and Javascript, as it was the only language I could use and see visually on it.
+                    I picked up HTML, CSS and Javascript, as it was the only language I could use and see visually on it. I have an application called
+                    PC Usage Tracker available on the Microsoft Store, which you can check out in the projects section.
                 </p>
             </div>
 
